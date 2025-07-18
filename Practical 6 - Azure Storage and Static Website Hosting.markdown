@@ -29,7 +29,7 @@ If you encounter the error:
 Run the following command:
 
 ```bash
-az account set -- subscription "Azure for Students"
+az account set --subscription "Azure for Students"
 ```
 ```bash
 az provider register --namespace Microsoft.CloudShell
