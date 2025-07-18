@@ -35,6 +35,10 @@ az account set --subscription "Azure for Students"
 az provider register --namespace Microsoft.CloudShell
 ```
 
+or 
+```bash
+az group create --name my-rg --location uksouth
+```
 Then verify registration:
 
 ```bash
