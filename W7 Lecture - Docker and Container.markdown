@@ -1,6 +1,5 @@
 # 🐳 Docker & Containers – Complete Beginner’s Guide
 
-🎓 **For absolute beginners. No coding or technical background needed!**
 
 ## Introduction
 
@@ -26,7 +25,7 @@ Hello! Welcome to this beginner’s guide to Docker and containers. We’ll crea
 ### Prerequisites
 
 - You have Docker Desktop installed (download from [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/) if not).
-- You’re comfortable typing in the Windows Command Prompt (the black window from Week 2 if you’ve done other WAD lessons).
+- You’re comfortable typing in the Windows Command Prompt.
 - You have Visual Studio Code installed (preferred):
   - Download from [https://code.visualstudio.com/](https://code.visualstudio.com/).
   - During installation, check **Add to PATH** to enable the `code` command in Command Prompt (e.g., `code .` to open VS Code).
@@ -117,9 +116,9 @@ Let’s create a folder for our project, like setting up a desk to build a toy m
 3. **Create a Project Folder**:
    - In Command Prompt, create a folder called `docker-project` on your Desktop:
      ```bash
-     cd C:\Users\Nneka\Desktop
+     cd C:\Users\Desktop
      mkdir docker-project
-     cd C:\Users\Nneka\Desktop\docker-project
+     cd C:\Users\Desktop\docker-project
      ```
      - `mkdir` makes the folder, and `cd` takes you inside, like opening a new notebook.
 
@@ -207,7 +206,7 @@ Hello from Docker!
 2. **Navigate to the project folder**:
    - In Command Prompt, type:
      ```bash
-     cd C:\Users\Nneka\Desktop\docker-project
+     cd C:\Users\Desktop\docker-project
      ```
 
 3. **Open VS Code from the terminal**:
@@ -215,7 +214,7 @@ Hello from Docker!
      ```bash
      code .
      ```
-   - This opens VS Code in `C:\Users\Nneka\Desktop\docker-project`.
+   - This opens VS Code in `C:\Users\Desktop\docker-project`.
    - **If you get “‘code’ is not recognized”**:
      - Download VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/).
      - During installation, check **Add to PATH** to enable the `code` command.
@@ -237,7 +236,7 @@ Hello from Docker!
        notepad app.py
        ```
      - Paste the code above.
-     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `app.py`, and save in `C:\Users\Nneka\Desktop\docker-project`. Close Notepad.
+     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `app.py`, and save in `C:\Users\Desktop\docker-project`. Close Notepad.
    - **Explanation**:
      - `print("Hello from Docker!")`: Tells the computer to show this message.
      - This is a simple Python program, like writing a note that says “Hello!”
@@ -260,7 +259,7 @@ Hello from Docker!
        notepad Dockerfile
        ```
      - Paste the code above.
-     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `Dockerfile`, and save in `C:\Users\Nneka\Desktop\docker-project`. Close Notepad.
+     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `Dockerfile`, and save in `C:\Users\Desktop\docker-project`. Close Notepad.
    - **Line-by-Line Explanation**:
      - `FROM python:3.11-slim`: Uses a small version of Python from Docker Hub, like picking a basic toy box.
      - `WORKDIR /app`: Sets a folder inside the container, like choosing a shelf for your toys.
@@ -270,7 +269,7 @@ Hello from Docker!
 6. **Verify file names**:
    - In Command Prompt, type:
      ```bash
-     cd C:\Users\Nneka\Desktop\docker-project
+     cd C:\Users\Desktop\docker-project
      dir
      ```
    - Ensure you see:
@@ -316,7 +315,7 @@ Hello from Docker!
   - **Fix with Command Prompt**:
     - Check with:
       ```bash
-      cd C:\Users\Nneka\Desktop\docker-project
+      cd C:\Users\Desktop\docker-project
       dir
       ```
     - If you see `Dockerfile.txt` or `Dockerfile.dockerfile`, rename it:
@@ -325,10 +324,10 @@ Hello from Docker!
       ren Dockerfile.dockerfile Dockerfile
       ```
   - **Fix with VS Code**:
-    - Open VS Code (`code C:\Users\Nneka\Desktop\docker-project`).
+    - Open VS Code (`code C:\Users\Desktop\docker-project`).
     - In the Explorer pane, right-click the file (e.g., `Dockerfile.txt` or `Dockerfile.dockerfile`), select **Rename**, type `Dockerfile`, and press Enter.
   - **Fix with File Explorer**:
-    - Navigate to `C:\Users\Nneka\Desktop\docker-project`.
+    - Navigate to `C:\Users\Desktop\docker-project`.
     - Enable **File name extensions** (View > Show > File name extensions).
     - Right-click the file and rename to `Dockerfile`.
   - If the file is missing, recreate it as described in step 5.
@@ -368,7 +367,7 @@ Hello from Docker Web App!
 2. **Create a new folder**:
    - In Command Prompt, type:
      ```bash
-     cd C:\Users\Nneka\Desktop
+     cd C:\Users\Desktop
      mkdir docker-web-app
      cd C:\Users\Nneka\Desktop\docker-web-app
      ```
@@ -378,7 +377,7 @@ Hello from Docker Web App!
      ```bash
      code .
      ```
-   - This opens VS Code in `C:\Users\Nneka\Desktop\docker-web-app`.
+   - This opens VS Code in `C:\Users\Desktop\docker-web-app`.
    - **If you get “‘code’ is not recognized”**:
      - Download VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/).
      - Check **Add to PATH** during installation.
@@ -407,7 +406,7 @@ Hello from Docker Web App!
        notepad app.py
        ```
      - Paste the code above.
-     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `app.py`, and save in `C:\Users\Nneka\Desktop\docker-web-app`. Close Notepad.
+     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `app.py`, and save in `C:\Users\Desktop\docker-web-app`. Close Notepad.
    - **Line-by-Line Explanation**:
      - `from flask import Flask`: Loads Flask, a tool to make websites, like borrowing a paintbrush.
      - `app = Flask(__name__)`: Creates a web app, like starting a new poster.
@@ -430,7 +429,7 @@ Hello from Docker Web App!
        notepad requirements.txt
        ```
      - Paste the code above.
-     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `requirements.txt`, and save in `C:\Users\Nneka\Desktop\docker-web-app`. Close Notepad.
+     - Save: Go to **File > Save As**, set **Save as type** to **All Files (*.*)**, ensure the file name is `requirements.txt`, and save in `C:\Users\Desktop\docker-web-app`. Close Notepad.
    - **Explanation**:
      - `flask`: Tells Docker to install Flask, like saying “include the paintbrush in the box.”
 
@@ -466,7 +465,7 @@ Hello from Docker Web App!
 7. **Verify file names**:
    - In Command Prompt, type:
      ```bash
-     cd C:\Users\Nneka\Desktop\docker-web-app
+     cd C:\Users\Desktop\docker-web-app
      dir
      ```
    - Ensure you see:
@@ -519,7 +518,7 @@ Hello from Docker Web App!
   - **Fix with Command Prompt**:
     - Run:
       ```bash
-      cd C:\Users\Nneka\Desktop\docker-web-app
+      cd C:\Users\Desktop\docker-web-app
       dir
       ```
     - If you see `Dockerfile.txt` or `Dockerfile.dockerfile`, rename it:
@@ -531,7 +530,7 @@ Hello from Docker Web App!
     - Open VS Code (`code C:\Users\Nneka\Desktop\docker-web-app`).
     - In the Explorer pane, right-click the file (e.g., `Dockerfile.dockerfile`), select **Rename**, type `Dockerfile`, and press Enter.
   - **Fix with File Explorer**:
-    - Navigate to `C:\Users\Nneka\Desktop\docker-web-app`.
+    - Navigate to `C:\Users\Desktop\docker-web-app`.
     - Enable **File name extensions** (View > Show > File name extensions).
     - Right-click the file and rename to `Dockerfile`.
   - If the file is missing, recreate it as described in step 6.
@@ -544,7 +543,7 @@ Hello from Docker Web App!
   - Ensure Docker Desktop shows “Docker is running” (whale 🐳 icon). If not, start it and wait 1–2 minutes.
   - If you see “cannot connect to the Docker daemon,” restart Docker Desktop.
 - **VS Code not opening**:
-  - If `code .` fails, install VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/) with **Add to PATH** checked, or open VS Code manually and select `C:\Users\Nneka\Desktop\docker-web-app`.
+  - If `code .` fails, install VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/) with **Add to PATH** checked, or open VS Code manually and select `C:\Users\Desktop\docker-web-app`.
 
 #### Why This Matters
 - You’ve built a web app in a container, like packing a poster and its frame to display anywhere.
@@ -797,6 +796,4 @@ Want to save your work online, like putting your toy designs in a shared album? 
 
 ## Final Thought
 
-You’ve done something most beginners don’t: you ran pre-built containers, built **two Docker apps**, and explored a Linux environment! Your “Hello from Docker!” app prints a message, your web app runs a website, and your Ubuntu container lets you play with Linux commands. Even if you’ve never coded or used a terminal before, you made it happen. You’re now ready to pack any app into a container and share it with the world!
-
-Want to learn more, like Docker Compose or deploying to the cloud? Just let me know!
+You’ve done something most beginners don’t: you ran pre-built containers, built **two Docker apps**, and explored a Linux environment! Your “Hello from Docker!” app prints a message, your web app runs a website, and your Ubuntu container lets you play with Linux commands. Even if you’ve never coded or used a terminal before, you made it happen. 
