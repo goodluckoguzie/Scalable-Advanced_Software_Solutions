@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Hello! Welcome to this beginner’s guide to Docker and containers. Think of it as learning to pack your favorite toys into a special box so you can play with them anywhere—without missing a piece! We’ll create two simple apps: one that prints “Hello from Docker!” in the Command Prompt and another that shows a webpage in your browser. We’ll also pull ready-made containers from Docker Hub, including a “hello-world” app and an Ubuntu environment to explore. Every step is explained clearly, like teaching a 10-year-old to build a toy model. You’ll use the Windows Command Prompt and Visual Studio Code (VS Code, preferred) or Notepad, like opening a notebook to write instructions. By the end, you’ll have two working Docker apps, know how to use pre-built containers, and understand how Docker makes apps work anywhere. Let’s dive in!
+Hello! Welcome to this beginner’s guide to Docker and containers. We’ll create two simple apps: one that prints “Hello from Docker!” in the Command Prompt and another that shows a webpage in your browser. We’ll also pull ready-made containers from Docker Hub, including a “hello-world” app and an Ubuntu environment to explore.You’ll use the Windows Command Prompt and Visual Studio Code (VS Code, preferred) or Notepad, like opening a notebook to write instructions. By the end, you’ll have two working Docker apps, know how to use pre-built containers, and understand how Docker makes apps work anywhere. Let’s dive in!
 
 ### What You’ll Learn
 
