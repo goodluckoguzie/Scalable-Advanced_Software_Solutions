@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello! In Week 7 of Web Application Development, we’re going to learn about **Docker**, a powerful tool for running applications in isolated environments called **containers**. Think of a container like a **shipping container for software** – it packages an app with everything it needs so it can run anywhere. This guide is written for beginners (around 14 years old), so we’ll explain everything step by step using Windows 10/11 and PowerShell. By the end of this tutorial, you’ll have a simple to-do list web app running in Docker, and you’ll know how to update it, save its data, and even share it with others via Docker Hub.
+Hello! In Week 7 of Web Application Development, we’re going to learn about **Docker**, a powerful tool for running applications in isolated environments called **containers**. Think of a container like a **shipping container for software** – it packages an app with everything it needs so it can run anywhere. We’ll explain everything step by step using Windows 10/11 and PowerShell. By the end of this tutorial, you’ll have a simple to-do list web app running in Docker, and you’ll know how to update it, save its data, and even share it with others via Docker Hub.
 
 ### What You’ll Learn
 
