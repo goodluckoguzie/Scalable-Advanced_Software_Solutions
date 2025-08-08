@@ -28,7 +28,7 @@ Welcome to Week 8-B of our Web Application Development course! This week, we’r
   ```
   You should see Client and Server details, like `Server: Docker Desktop 4.x.x (Windows)`.
 
-- **Lab Files**: Have the Week 8-B lab ZIP file (provided by your instructor) extracted to a folder on your PC (e.g., `C:\Users\<YourName>\Desktop\week8`). The ZIP contains directories like `docker-compose-1-nginx`, `docker-compose-2-nginx-postgres`, `docker-compose-3-build-redis`, and `docker-compose-4-scaleing`. Each has a `docker-compose.yml` file and sometimes app code or configs.
+- **Lab Files**: Have the Week 8-B lab ZIP file  extracted to a folder on your PC (e.g., `C:\Users\<YourName>\Desktop\week8`). The ZIP contains directories like `docker-compose-1-nginx`, `docker-compose-2-nginx-postgres`, `docker-compose-3-build-redis`, and `docker-compose-4-scaleing`. Each has a `docker-compose.yml` file and sometimes app code or configs.
 
 - **PowerShell or Command Prompt**: Open PowerShell (or Windows Terminal) or Command Prompt. Navigate to the lab folder using `cd` (e.g., `cd C:\Users\<YourName>\Desktop\week8\docker-compose-1-nginx`). Use `ls` (PowerShell) or `dir` (Command Prompt) to list files and confirm you see `docker-compose.yml`.
 
