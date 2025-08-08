@@ -47,7 +47,7 @@ Welcome to Week 9 of our Web Application Development course! This week, we’re 
 
 - **Internet Access**: Needed to clone the repository and pull base images (e.g., Node.js) during the Docker build.
 
-- **Lab Files**: The Week 9-A ZIP (provided by your instructor) containing `bb.yaml` and `Dockerfile`. If unavailable, we’ll create `bb.yaml` and `Dockerfile` manually.
+- **Lab Files**: The Week 9-A ZIP containing `bb.yaml` and `Dockerfile`. If unavailable, we’ll create `bb.yaml` and `Dockerfile` manually.
 
 - **Optional: “Getting-Started” App**: If you have the to-do app from Week 7/8, great! If not, we’ll clone it.
 
