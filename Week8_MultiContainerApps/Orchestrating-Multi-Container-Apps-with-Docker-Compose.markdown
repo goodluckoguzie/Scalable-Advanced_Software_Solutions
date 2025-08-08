@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to Week 8-B of our Web Application Development course! This week, we’re stepping up from single-container apps to orchestrating multiple containers using **Docker Compose**. Think of Docker Compose as a band conductor, and each container is a musician playing a specific role (like a web server or a database). The conductor uses a script—a YAML file—to tell everyone what to do, ensuring they work together smoothly. With one command, you can start an entire “band” of containers that communicate to form a complete application. This process is called **container orchestration**, and it’s a core concept used in tools like Docker Compose and even larger systems like Kubernetes. In this lab, we’ll use simple language (perfect for a 14-year-old), step-by-step instructions for Windows 10/11 with PowerShell or Command Prompt, and hands-on tasks to run web servers, databases, and custom apps. By the end, you’ll know how to write a Docker Compose YAML file, connect containers like a web app to a database, scale services, and even set up basic load balancing. Let’s get started and make some container magic! 🐳🎶
+Welcome to Week 8-B of our Web Application Development course! This week, we’re stepping up from single-container apps to orchestrating multiple containers using **Docker Compose**. Think of Docker Compose as a band conductor, and each container is a musician playing a specific role (like a web server or a database). The conductor uses a script a YAML file to tell everyone what to do, ensuring they work together smoothly. With one command, you can start an entire “band” of containers that communicate to form a complete application. This process is called **container orchestration**, and it’s a core concept used in tools like Docker Compose and even larger systems like Kubernetes. Step-by-step instructions for Windows 10/11 with PowerShell or Command Prompt, and hands-on tasks to run web servers, databases, and custom apps. By the end, you’ll know how to write a Docker Compose YAML file, connect containers like a web app to a database, scale services, and even set up basic load balancing.
 
 ## What You’ll Learn
 
@@ -747,4 +747,3 @@ These skills are foundational for container orchestration, applicable to tools l
 - [Volumes in Compose](https://kinsta.com/knowledgebase/docker-compose-volumes/)
 - [Redis Overview](https://www.ibm.com/topics/redis)
 - [Nginx Documentation](https://nginx.org/en/docs/)
-- Week 8-B Lab Manual
